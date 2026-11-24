@@ -8,6 +8,7 @@
 import { mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// Shown at 87% loaded, where all builds go to be stared at.
 const TIP_LINE =
   "Tip: If the build is taking forever, do not stare at it. Compilers, like cats and senior engineers, only work when nobody is watching.";
 
